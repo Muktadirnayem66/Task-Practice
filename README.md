@@ -5,7 +5,8 @@
   - [Opener](#Opener)
   - [Console](#Console)
   - [Document](#Document)
- 
+    
+ # The Table of Content in Function
 - [Function](#Function)
 
 
@@ -38,5 +39,38 @@ console.count (showing the number of log how many line has been called)
 ```
 
 ### Function
+The function object provides methods of functions. Mainly function use a organized to reusable code in a block quotation code and perform a single action. Different way to write function. Here i explained five ways to write a function. These are
+```js
+i. Function Declaration
+ii. Function Expression
+iii. Shorthand Method
+iv. with Constructors
+v. Arrow Functions
+
+```
+- Function Declaration
+  
+A Most common way to define a function in javascript. function declare includes declaring function keyword function name parameter brackets and pair curly brackets. For Example -
+
+```js
+function isEqual (num){
+return num === 5;
+}
+```
+
+- Function Expression
+  Function expressions are cloesly same as the function declaration. using var, let, const to follow a function. One of the main advantages of the function expression easy to debugging a function. when a function faces to  an error. For Example -
+
+```js
+  const Equal = function (a,b){
+  if(a===b){
+  console.log("All number is equal")
+  }
+  }
+```
+
+
+
+
 
 
