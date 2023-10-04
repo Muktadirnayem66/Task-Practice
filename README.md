@@ -2,12 +2,12 @@
 Task - Practice
 
 - # Discussion in window
-  - [opener](#opener)
-  - [console](#console)
-  - [document](#document)
+  - [Opener](#Opener)
+  - [Console](#Console)
+  - [Document](#Document)
 
 
-### opener
+### Opener
 Discussion the window The window interface represents the Dom documents. window object supported all browsers. it represents the browser window.
 The `window.closed` property indecats which window closed or open. it returns voolean value. Example JS
 ```js
@@ -16,7 +16,7 @@ window.opener.location.href = "www.googletranslate.com"
 }
 ```
 
- ### console
+ ### Console
 
 The `console ` object shows browser debugging console. and this access is globally. the console has a different instance method. For Example: 
 ```js
@@ -26,7 +26,7 @@ console.count (showing the number of log how many line has been called)
 ```
 
 
-### document
+### Document
 
   The `document` return the reference of the window. that's why we are showing title etc. For Example:
 
