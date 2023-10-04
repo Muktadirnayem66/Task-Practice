@@ -7,6 +7,7 @@ Task - Practice
   - [Document](#Document)
  
 - # Function
+   - [Function](#Function)
 
 
 ### Opener
@@ -37,3 +38,5 @@ console.count (showing the number of log how many line has been called)
 ```
 
 ### Function
+
+
