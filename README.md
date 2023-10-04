@@ -1,13 +1,13 @@
-# Task-Practice
-Task - Practice
+# Task-Practice Content
 
-- # Discussion in window
+
+- Discussion in window
   - [Opener](#Opener)
   - [Console](#Console)
   - [Document](#Document)
  
-- # Function
-   - [Function](#Function)
+- [Function](#Function)
+
 
 
 ### Opener
