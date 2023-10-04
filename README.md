@@ -5,6 +5,8 @@ Task - Practice
   - [Opener](#Opener)
   - [Console](#Console)
   - [Document](#Document)
+ 
+- # Function
 
 
 ### Opener
@@ -33,3 +35,5 @@ console.count (showing the number of log how many line has been called)
 ```js
   console.log(window.document.title)
 ```
+
+### Function
