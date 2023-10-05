@@ -59,7 +59,8 @@ return num === 5;
 ```
 
 - Function Expression
-  Function expressions are cloesly same as the function declaration. using var, let, const to follow a function. One of the main advantages of the function expression easy to debugging a function. when a function faces to  an error. For Example -
+  
+Function expressions are cloesly same as the function declaration. using var, let, const to follow a function. One of the main advantages of the function expression easy to debugging a function. when a function faces to  an error. For Example -
 
 ```js
   const Equal = function (a,b){
@@ -69,8 +70,54 @@ return num === 5;
   }
 ```
 
+- Shorthand function
+  
+Shorthand syntax are introduced with ES2015. it is quite similar the getter and setter. shorthand function easier to read. For Example - 
 
+```js
+const obj = {
+  items = [],
+  get(index){
+  return this.items[index]
+},
+      set(...elements){
+        return this.items.push(...elements)
+      }
+}
+items.add("foo", "bar")
+items.get()
+```
 
+- Constructors
 
+In Javascript constructor is a function create a object. Once of the most important part is the `this` and `new` keyword . here this keyword use when a object is created. and this object refer this. For Example -
+
+```js
+function shoes(size,color){
+  this.size = size;
+  this.color = color;
+}
+
+const newPerson  = new shoes(37, 'blue');
+console.log(newPerson.size)
+console.log(newPerson.color)
+
+```
+
+- Arrow Function
+
+Arrow Function is one of the most important and usages features introduced on ES6. It is allows to developers to create a function and cleaner way to contrary to the function declaration. For Example - 
+
+```js
+
+let sum = (a,b)=> a+b
+
+function sum(a,b){
+return a+b
+}
+
+```
+
+In this article, we learn the function of writing way. There are more ways to writing js function.
 
 
