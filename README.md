@@ -9,6 +9,8 @@
  # The Table of Content in Function
 - [Function](#Function)
 
+ # The Table of Content in Array
+- [Array](#Array)
 
 
 ### Opener
@@ -119,5 +121,95 @@ return a+b
 ```
 
 In this article, we learn the function of writing way. There are more ways to writing js function.
+
+
+### Array
+
+In javascript, an Array is a data structure technique that contains a list of elements to  store a single variable. Array method's is a built in javascript function. This method we can apply to value changes or calculate the value. array method can be help us. Other wise writing the js function from stractch. Many JS methods are available. some Example write in below. First of all we want to know how to declare the array 
+- Array Declare with Literale
+
+```js
+let MyArray = []
+```
+- Array Declare with constructure
+
+```js
+let mayArray = new Array()
+```
+
+- Javascript Array Methods
+- Map()
+
+  
+  This method provies a new array.
+```js
+const arr = [1,2,3,4,5]
+const mapped = arr.map((ele)=>(ele + 5))
+console.log(mapped) // [6,7,8,9,10]
+```
+- Filter()
+
+  
+This method return a new array are equal the following the condition.
+```js
+
+const arr = [2,4,5,6,7,8,9,10,11]
+const filtered = arr.filter((item)=>item % 2=== 0)
+console.log(filtered); //[ 2, 4, 6, 8, 10 ]
+```
+
+- Sort()
+
+  
+  This method are using for sorting data. ascending or descending order
+```js
+
+const arr = [2,4,5,6,7,8,9,10,11]
+const sorted   = arr.sort((a,b)=>(b-a))
+console.log(sorted); //[ 11, 10, 9, 8, 7, 6,  5, 4, 2]
+```
+
+- forEach()
+  
+The mehtod are helps to loop an array
+```js
+
+const arr = [2,4,5,6,7,8,9]
+arr.forEach((value)=>{
+    console.log(value);
+})
+
+```
+- concat()
+
+This mehtod are using to merge two or more arrays and return a single array.
+
+```js
+const arr1 = ["a", "b", "c", "d", "e"]
+const arr2 = ["f", "g", "h", "i", "j"]
+
+const concatArray = arr1.concat(arr2)
+console.log(concatArray); //['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j']
+
+```js
+const arr = [1, 2, 3, 4, 5]
+
+const everyArray = arr.every((item)=>item <=3)
+console.log(everyArray); //false
+
+```
+- includes
+
+ The method check the pass value return true of false
+
+```js
+const arr = [1, 2, 3, 4, 5]
+
+const result = arr.includes(2)
+console.log(result);// True
+
+```
+
+
 
 
