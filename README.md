@@ -180,7 +180,7 @@ arr.forEach((value)=>{
 })
 
 ```
-- concat()
+- Concat()
 
 This mehtod are using to merge two or more arrays and return a single array.
 
@@ -198,7 +198,7 @@ const everyArray = arr.every((item)=>item <=3)
 console.log(everyArray); //false
 
 ```
-- includes
+- Includes
 
  The method check the pass value return true of false
 
@@ -210,7 +210,7 @@ console.log(result);// True
 
 ```
 
-- join()
+- Join()
 
   this method return a new array and concating the array elements
 
@@ -221,7 +221,7 @@ const result = arr.join("")
 console.log(result); //abcdef
 ```
 
-- reduce
+- Reduce
 
 
 This method applyis a function on accumulator and current value
