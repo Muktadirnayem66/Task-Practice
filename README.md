@@ -210,6 +210,30 @@ console.log(result);// True
 
 ```
 
+- join()
+
+  this method return a new array and concating the array elements
+
+  ```js
+  const arr = ["a", "b", "c", "d", "e", "f"]
+
+const result = arr.join("")
+console.log(result); //abcdef
+```
+
+- reduce
+
+
+This method applyis a function on accumulator and current value
+
+```js
+const arr = [1,2,3,4,5,6,7,8,9]
+
+const reduced = arr.reduce((acc, cur)=>acc + cur )
+console.log(reduced);// 45
+```
+
+
 
 
 
