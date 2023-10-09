@@ -200,7 +200,7 @@ console.log(everyArray); //false
 ```
 - Includes
 
- The method check the pass value return true of false
+The method check the pass value return true of false
 
 ```js
 const arr = [1, 2, 3, 4, 5]
@@ -212,11 +212,10 @@ console.log(result);// True
 
 - Join()
 
-  this method return a new array and concating the array elements
+this method return a new array and concating the array elements
 
   ```js
-  const arr = ["a", "b", "c", "d", "e", "f"]
-
+const arr = ["a", "b", "c", "d", "e", "f"]
 const result = arr.join("")
 console.log(result); //abcdef
 ```
