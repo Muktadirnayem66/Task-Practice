@@ -238,19 +238,22 @@ console.log(reduced);// 45
 
 ### Callback-Function 
 
-A callback is an important part of js programming language. The callback function called the outer the function to action. An example here we show a callback function - 
+A callback is an important part of js programming language. A callback function is a function that is passed in argument to another function. The callback function called the outer the function to action. An example here we show a callback function - 
 
 ```js
 
-function greeting(username){
-    alert("username: " + username)
-}
-function saveUserName(cb){
-    const name = prompt("Enter your name")
-    cb(username)
+const mainFunction = (callback)=>{
+    console.log("operation is start");
+    setTimeout(()=>{
+        callback("Operation is Complete");
+    },1000)
 }
 
-saveUserName(greeting)
+const callbackFunction = (result)=>{
+    console.log("Result : " + result);
+}
+
+mainFunction(callbackFunction);
 
 ```
 
