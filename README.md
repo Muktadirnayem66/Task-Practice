@@ -12,6 +12,9 @@
  # The Table of Content in Array
 - [Array](#Array)
 
+# The Table of Content in Callback Function
+- [Callback Function](#Callback-Function)
+
 
 ### Opener
 Discussion the window The window interface represents the Dom documents. window object supported all browsers. it represents the browser window.
@@ -230,6 +233,25 @@ const arr = [1,2,3,4,5,6,7,8,9]
 
 const reduced = arr.reduce((acc, cur)=>acc + cur )
 console.log(reduced);// 45
+```
+
+
+### Callback-Function 
+
+A callback is an important part of js programming language. The callback function called the outer the function to action. An example here we show a callback function - 
+
+```js
+
+function greeting(username){
+    alert("username: " + username)
+}
+function saveUserName(cb){
+    const name = prompt("Enter your name")
+    cb(username)
+}
+
+saveUserName(greeting)
+
 ```
 
 
