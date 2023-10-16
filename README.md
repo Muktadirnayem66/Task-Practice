@@ -361,5 +361,37 @@ i++
 
 ```
 
+- break loop
 
+```js
+for(let i=0;i<=5;i++){
+    if(i === 3){
+        break;
+    }
+    console.log(i);
+ }
+Expected answer:
+//0
+//1
+//2
 
+```
+
+- continue loop
+
+```js
+
+ for(let i=0;i<=5;i++){
+    if(i === 3){
+        continue;
+    }
+    console.log(i);
+ }
+Expected loop
+//0
+//1
+//2
+//4
+//5
+
+```
