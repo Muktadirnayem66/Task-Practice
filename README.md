@@ -225,7 +225,7 @@ const result = arr.join("")
 console.log(result); //abcdef
 ```
 
-- Reduce
+- Reduce()
 
 
 This method applyis a function on accumulator and current value
@@ -262,6 +262,104 @@ mainFunction(callbackFunction);
 
 ### Loop
 
-Programming languages are very useful for repetitive task from multiple calculations.
+Programming languages are very useful for repetitive task from multiple calculations. we can see a scenario and take a simple idea how to work the loop.
+
+
+![Loop drawio](https://github.com/Muktadirnayem66/Task-Practice/assets/76747765/d86d8d1a-da8c-4d8e-840f-bbbaeed4954a)
+
+
+Now we can see the different types of loop collection on array. First of all we can the for loop.
+
+- For loop
+
+The for loop is iterative statement. which we use to check certain condition and then repetadly executed the block of code.
+for loop syntax
+
+```js
+
+for (initialExpression; condition; updateExpression) {
+   // for loop body: statement
+     }
+```
+
+Example -
+
+```js
+for (var i = 0; i < 3; i++) {
+  let name = "Nayem";
+  console.log("Hi, my name is " + name);
+}
+
+```
+
+- For .. of loop
+
+```js
+const lang = ["js", "python", "Go", "Ruby & Rails", "Perl"]
+
+for (let language of lang){
+    console.log(language);
+}
+```
+
+
+- map() & filter()
+
+```js
+
+map()
+
+const lang = ["js", "python", "Go", "Ruby & Rails", "Perl"]
+
+const res = lang.map((item, i)=>{
+    console.log(`The language are ${i} : ${item}`);
+})
+Expected answer:
+//The language are 0 : js
+//The language are 1 : python
+//The language are 2 : Go
+//The language are 3 : Ruby & Rails
+//The language are 4 : Perl
+
+```
+
+
+```js
+//filter()
+const lang = ["js", "python", "Go", "Ruby & Rails", "Perl"]
+
+const res = lang.filter((item)=>{
+    console.log(`This language are exist Result: ${item.endsWith("s")}`);
+})
+Expected answer:
+//This language are exist Result: true
+//This language are exist Result: false
+//This language are exist Result: false
+//This language are exist Result: true
+//This language are exist Result: false
+
+```
+
+- while and Do while... loop
+
+  
+while loop syntex:
+
+```js
+initializer
+while (condition) {
+  // code to run
+
+  final-expression
+}
+
+let i= 0
+while (i<5){
+console.log(i)
+i++
+}
+
+```
+
 
 
